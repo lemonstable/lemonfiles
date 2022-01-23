@@ -4821,12 +4821,6 @@ h1.page-title + .tag-cloud-list {
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-#waline-wrap textarea {
-  background: url("https://s2.loli.net/2021/12/30/UulwgcNG8Ys2pTt.jpg") 100% 100% no-repeat;
-}
-#waline-wrap textarea:focus {
-  background-image: none;
-}
 .fireworks {
   position: fixed;
   top: 0;
