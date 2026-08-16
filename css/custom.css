@@ -1,0 +1,32 @@
+/* 1. 将个人信息卡片的背景改成温柔的淡粉色渐变 */
+#aside-content .card-info,
+.card-widget.card-info {
+  background: linear-gradient(135deg, #ffc0cb 0%, #ffb6c1 100%) !important;
+  border-color: #ffd1dc !important;
+}
+
+/* 2. （可选）如果想把全站的蓝色主题色都换成可爱的粉色系 */
+:root {
+  --anzhiyu-theme: #ff9ebb !important;
+  --anzhiyu-main: #ff9ebb !important;
+  --anzhiyu-theme-op: #ff9ebb20 !important;
+}
+
+/* 3. 头像边框与小图标悬浮高亮色 */
+.author-info__bottom-group-left:hover h1,
+.card-info-social-icons .social-icon:hover {
+  color: #ff80ab !important;
+}
+/* 1. 将技能滚动的图标区域隐藏 */
+#skills-tags-group-all {
+  display: none !important;
+}
+
+/* 2. 给整个横幅卡片设置二次元图片或 GIF 背景 */
+#random-banner {
+  background: url("https://pic.lemonbuluo.eu.org/Skirafile/homey0d.webp") no-repeat center center !important;
+  background-size: cover !important;
+  position: relative;
+  overflow: hidden;
+}
+
